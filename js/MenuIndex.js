@@ -6,10 +6,10 @@ function MenuIndexPtc(){
       </div>
       <div class="navb-items d-none d-xl-flex w-25">
         <div class="item">
-          <a href="Indexdef.html" class="nav-link">Home</a>
+          <a href="Index.html" class="nav-link">Home</a>
         </div>
         <div class="item">
-          <a href="" class="nav-link">Sobre nosotros</a>
+          <a href="pages/AboutUs.html" class="nav-link">Sobre nosotros</a>
         </div>
         <div class="item">
           <a href="pages/Contact.html" class="nav-link">Contactanos</a>
@@ -18,7 +18,7 @@ function MenuIndexPtc(){
           <a href="pages/Information.html" class="nav-link">Información</a>
         </div>
         <div class="item-button">
-          <a href="" class="nav-link">Descargar</a>
+          <a href="pages/Download.html" class="nav-link">Descargar</a>
         </div>
       </div>
     </div>
@@ -57,7 +57,7 @@ function MenuIndexPtc(){
                 <path
                   d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z" />
               </svg>
-              <a href="Indexdef.html">Home</a>
+              <a href="Index.html">Home</a>
             </div>
             <div class="modal-line bg-primary">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-nut m-1"
@@ -67,7 +67,7 @@ function MenuIndexPtc(){
                 <path
                   d="M6.848 5.933a2.5 2.5 0 1 0 2.5 4.33 2.5 2.5 0 0 0-2.5-4.33zm-1.78 3.915a3.5 3.5 0 1 1 6.061-3.5 3.5 3.5 0 0 1-6.062 3.5z" />
               </svg>
-              <a href="">Sobre nosotros</a>
+              <a href="pages/AboutUs.html">Sobre nosotros</a>
             </div>
             <div class="modal-line bg-primary">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -89,7 +89,7 @@ function MenuIndexPtc(){
           </div>
   
           <div class="modal-body">
-            <a href="" class="navb-button" type="button">Descargar</a>
+            <a href="pages/Download.html" class="navb-button" type="button">Descargar</a>
           </div>
   
   

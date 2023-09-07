@@ -1,0 +1,169 @@
+main {
+    background-image: url(../imgs/fondoDwld.jpeg);
+    padding: 2%;
+}
+
+#cont1 {
+    width: 80%;
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+#cont1 h1 {
+    padding: 2%;
+}
+
+#accordionExample {
+    width: 50%;
+    padding: 2%;
+}
+
+#cont1 #img1 {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#cont2 {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: right;
+}
+
+#cont2 #img2 {
+    width: 50%;
+}
+
+#cont22 {
+    width: 80%;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+#cont22 h1 {
+    width: 100%;
+}
+
+#cont2 #info2 {
+    width: 60%;
+    text-align: right;
+    padding: 2%;
+}
+
+#img1 img {
+    width: 90%;
+}
+
+#img2 img {
+    width: 90%;
+}
+
+#img1, #img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cont3 {
+    background-color: #585858;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+#cont3 div {
+    background-color: #fff;
+    border-radius: 35px;
+    width: 50%;
+    padding: 2%;
+    box-shadow: 0px 0px 10px;
+}
+
+
+#cont3 #parr1 {
+    margin-bottom: 3em;
+}
+
+@media (max-width: 660px) {
+    #accordionExample {
+        width: 100%;
+        padding: 2%;
+    }
+
+    #cont1 img {
+        width: 0%;
+    }
+    
+    #cont2 {
+        justify-content: center;
+        background-image: url(../imgs/manual.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    #cont22 {
+        background-color: transparent;
+        border-radius: 20px;
+    }
+
+    #cont2 #info2 {
+        width: 100%;
+        text-align: justify;
+        padding: 2%;
+        box-shadow: 500px 500px 20px #ffffff80 inset;
+    }
+
+    #cont2 #img2 {
+        width: 0%;
+    }
+
+    #cont3 div {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #cont3 div button {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1000px) {
+    #cont1 {
+        width: 100%;
+    }
+
+    #cont22 {
+        width: 100%;
+    }
+}
+
+#imagenAnmd1{
+    -moz-animation: miAnimacion 0.5s ;
+    -webkit-animation: miAnimacion 1s linear;
+    }
+    
+    
+    @-moz-keyframes miAnimacion 
+    {
+    0% { left:100%;}
+    100% {right:0%;}
+    }
+    
+    @-webkit-keyframes miAnimacion
+    {
+    0% {left: -300px;
+        right: 0%;}
+    100% {left:0px;
+          right: 100%;}
+    }
+

@@ -1,6 +1,6 @@
-function FooterPtc()
+function Footer()
 {
-    const footer = `<footer class="text-center bg-dark text-lg-start text-white">
+    const footerIndex = `<footer class="text-center bg-dark text-lg-start text-white">
 
     <div class="container p-4 pb-0">
 
@@ -24,19 +24,19 @@ function FooterPtc()
                     <h6 class="text-uppercase mb-4 font-weight-bold">
                         Paginas del sitio
                     </h6>
-                    <p><a href="../Index.html"
+                    <p><a href="Index.html"
                             class="text-decoration-none link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Home</a>
                     </p>
-                    <p><a href="AboutUs.html"
+                    <p><a href="pages/AboutUs.html"
                             class="text-decoration-none link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Sobre
                             nosotros</a></p>
-                    <p><a href="Contact.html"
+                    <p><a href="pages/Contact.html"
                             class="text-decoration-none link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Contactanos</a>
                     </p>
-                    <p><a href="Information.html"
+                    <p><a href="pages/Information.html"
                     class="text-decoration-none link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Informacion</a>
                     </p>
-                    <p><a href="Download.html"
+                    <p><a href="pages/Download.html"
                     class="text-decoration-none link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Descargar</a></p>
             
                 </div>
@@ -121,5 +121,5 @@ function FooterPtc()
 
 </footer>`;
 
-return footer;
+return footerIndex;
 }
