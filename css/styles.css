@@ -1,22 +1,21 @@
-
-body{
+body {
 
     font-family: 'Urbanist', sans-serif;
     overflow-x: hidden;
 }
 
-a{
+a {
 
     text-decoration: none;
-   color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
-a:hover{
+a:hover {
 
     color: rgb(0, 0, 0);
 }
 
-header{
+header {
 
     width: 100vw;
     height: 100px;
@@ -26,7 +25,7 @@ header{
     align-items: center;
 }
 
-header .container-fluid{
+header .container-fluid {
 
     width: 100%;
     padding: 0 50px;
@@ -35,21 +34,21 @@ header .container-fluid{
     justify-content: space-between;
 }
 
-@media(max-width:1025px){
+@media(max-width:1025px) {
 
-    header .container-fluid{
+    header .container-fluid {
 
         padding: 0 5%;
     }
 }
 
-header .navb-logo img{
+header .navb-logo img {
 
     width: 140px;
     height: 66px;
 }
 
-header .navb-items{
+header .navb-items {
 
     display: flex;
     align-items: center;
@@ -57,7 +56,7 @@ header .navb-items{
     letter-spacing: 3px;
 }
 
-header .item{
+header .item {
 
     width: 120%;
     text-align: center;
@@ -70,18 +69,21 @@ header .item{
     border-bottom: 0px solid #1770ff;
     border-top: 0px solid #1770ff;
     cursor: pointer;
+    color: var(--color-navbar) !important;
+
 }
 
-header .item:hover{
+header .item:hover {
 
     border-bottom: 3px solid #1770ff;
     border-top: 3px solid #1770ff;
-    color: #1770ff;
+    color: var(--color-navbar) !important;
+
 }
 
-header .item-button a{
+header .item-button a {
 
-    background-color:#1770ff;
+    background-color: #1770ff;
     width: 150px;
     height: 50px;
     display: flex;
@@ -93,34 +95,34 @@ header .item-button a{
     transition: all .5s ease;
 }
 
-header .item-button a:hover{
+header .item-button a:hover {
 
-    background-color:#ffffff;
+    background-color: #ffffff;
     color: #1770ff;
 }
 
-header .mobile-toggler{
+header .mobile-toggler {
 
     font-size: 30px;
 }
 
 /* modal */
 
-.modal-dialog{
+.modal-dialog {
 
     margin: 0;
     width: 430px;
 }
 
-@media(max-width: 450px){
+@media(max-width: 450px) {
 
-    .modal-dialog{
+    .modal-dialog {
 
         width: 12%;
     }
 }
 
-.modal-content{
+.modal-content {
 
     border-radius: 0;
     height: 70%;
@@ -128,7 +130,7 @@ header .mobile-toggler{
     background-color: #102447;
 }
 
-.modal-header{
+.modal-header {
 
     display: flex;
     justify-content: space-between;
@@ -139,26 +141,26 @@ header .mobile-toggler{
     border-bottom: 2px solid #fefefe;
 }
 
-.modal-header img{
+.modal-header img {
 
     width: 140px;
     height: 66px;
     margin-top: 17.5px;
 }
 
-.modal-header .btn-close{
+.modal-header .btn-close {
 
     background: transparent;
     opacity: 1;
 }
 
-.modal-header i{
+.modal-header i {
 
     color: #fefefe;
     font-size: 30px;
 }
 
-.modal-body{
+.modal-body {
 
     width: 88%;
     margin: 0 auto;
@@ -166,7 +168,7 @@ header .mobile-toggler{
     flex: unset;
 }
 
-.modal-body .modal-line{
+.modal-body .modal-line {
 
     width: 100%;
     display: flex;
@@ -180,13 +182,13 @@ header .mobile-toggler{
     border-bottom: 1px solid #ffffff;
 }
 
-.modal-body .modal-line:hover{
+.modal-body .modal-line:hover {
 
     color: currentColor;
     border-bottom: 1px solid transparent;
 }
 
-.modal-line a{
+.modal-line a {
 
     font-size: 17px;
     font-weight: 500;
@@ -195,7 +197,7 @@ header .mobile-toggler{
     text-decoration: none;
 }
 
-.modal-line i{
+.modal-line i {
 
     color: currentColor;
     font-size: 30px;
@@ -204,7 +206,7 @@ header .mobile-toggler{
     padding: 0 0 3px 3px;
 }
 
-.navb-button{
+.navb-button {
 
     width: 100%;
     height: 47px;
@@ -219,13 +221,13 @@ header .mobile-toggler{
     text-decoration: none;
 }
 
-.navb-button:hover{
+.navb-button:hover {
 
-    background-color:#ffffff;
+    background-color: #ffffff;
     color: #1770ff;
 }
 
-.mobile-modal-footer{
+.mobile-modal-footer {
 
     width: 87%;
     margin: 0 auto;
@@ -237,14 +239,14 @@ header .mobile-toggler{
     color: #ffffff;
 }
 
-.mobile-modal-footer i:hover{
+.mobile-modal-footer i:hover {
 
     color: #fefefe;
 }
 
 
 
-.section-1{
+.section-1 {
 
     width: 100vw;
     height: 95vh;
@@ -253,7 +255,7 @@ header .mobile-toggler{
     align-items: center;
 }
 
-.section-1 p{
+.section-1 p {
 
     font-size: 75px;
     font-weight: 700;
@@ -262,9 +264,9 @@ header .mobile-toggler{
     text-align: center;
 }
 
-@media(max-width:1040px){
+@media(max-width:1040px) {
 
-    .section-1 p{
+    .section-1 p {
 
         font-size: 50px;
         text-align: start;
@@ -274,21 +276,77 @@ header .mobile-toggler{
 }
 
 .card {
-    -moz-animation: miAnimacion 0.5s ;
+    -moz-animation: miAnimacion 0.5s;
     -webkit-animation: miAnimacion 1s linear;
+}
+
+
+@-moz-keyframes miAnimacion {
+    0% {
+        bottom: 100%px;
     }
-    
-    
-    @-moz-keyframes miAnimacion 
-    {
-    0% { bottom:100%px;}
-    100% {bottom:0%;}
+
+    100% {
+        bottom: 0%;
     }
-    
-    @-webkit-keyframes miAnimacion
-    {
-    0% {bottom: -300px;
-        opacity: 0%;}
-    100% {bottom:0px;
-          opacity: 100%;}
+}
+
+@-webkit-keyframes miAnimacion {
+    0% {
+        bottom: -300px;
+        opacity: 0%;
     }
+
+    100% {
+        bottom: 0px;
+        opacity: 100%;
+    }
+}
+
+
+header {
+
+    background-color: var(--color-background);
+}
+
+
+.nav-link:hover {
+
+    color: var(--color-navbar-hover) !important;
+}
+
+
+.card-title {
+
+    color: var(--color-letra) !important;
+}
+
+.card-text{
+
+    color: var(--color-letra) !important;
+}
+
+.fondo{
+
+    background-color: var(--color-fondo);
+}
+
+
+.content{
+    background-color: var(--color-background);
+}
+
+
+.input{
+
+    background-color: var(--color-input) !important;
+    color: var(--color-letra) !important;
+}
+
+
+
+.descargar:hover{
+
+    background-color: var(--color-background) !important;
+
+}

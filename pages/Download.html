@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head onload="load()">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="img/icon" href="../imgs/logoADUP_black.png">
@@ -28,8 +28,10 @@
               <div id="info2">
                 <h1 class="display-3">manual de uso</h1>
 
-                <p class="fs-4">Es de una gran importancia que procures tener el manual de uso del sistema ADUP y leerlo detenidamente 
-                  para usar de manera correcta el sistema y evitar confusiones y mal uso del sistema</p>
+                <p class="fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem 
+                    sunt quidem perferendis, quas nihil quisquam saepe tenetur repellendus 
+                    dolor similique veritatis adipisci impedit, aliquid nulla praesentium 
+                    nemo consequuntur illo non!</p>
             
                 <p class="fs-4">descargar manual de uso aqui</p>
                 <button id="DescargarManual" type="button" class="btn btn-info btn-lg text-light">Descargar manual</button>
@@ -44,39 +46,25 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Requerimentos Minimos
+                      Requerimentos de hardware
                     </button>
                   </h2>
                   <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <ul>
-                        <li>Intel Core i3</li>
-                        <li>8Gb de RAM</li>
-                        <li>16Gb de almacenamiento</li>
-                        <li>Sistema operativo Windows 7</li>
-                        <li>Dispositivo gráfico Microsoft DirectX 9 con controlador WDDM.</li>
-                        <li>Pantalla de 1064 x 760 pixeles</li>
-                      </ul>
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                     </div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Requerimentos recomendados
+                      Requerimentos de software
                     
                     </button>
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <ul>
-                        <li>Intel Core i7</li>
-                        <li>12Gb de RAM</li>
-                        <li>64Gb de almacenamiento interno</li>
-                        <li>Sistema operativo Windows 10</li>
-                        <li>Compatible con DirectX 12 o posterior con el controlador WDDM 2.0.</li>
-                        <li>Pantalla de 2024 x 1700 pixeles</li>
-                      </ul>
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                     </div>
                   </div>
                 </div>
@@ -88,41 +76,18 @@
 
     </main>
 
-    <div id="cont3">
-        <div id="cajaDesc">
+    <div id="cont3" >
+        <div style="background-color: var(--color-background); color: var(--color-letra);">
             <h1 class="display-3 text-center">descargar</h1>
 
-            <p id="parr1" class="fs-4 text-justify">para descargar el sistema el primer paso es rellenar el siguiente formulario corto para concretar que licencia tendrás, luego de esto, el programa empezara a instalarse para que luego de que lo personalices, empieces a usarlo</p>
+            <p id="parr1" class="fs-4 text-justify">pasos para descargar - Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Consectetur laborum et consequatur beatae 
+                animi voluptate illo eos quae. Iure veniam quod earum consectetur 
+                quidem dicta sapiente, architecto culpa praesentium maxime?</p>
 
-                <div id="imagenCompra">
-                    <img src="../imgs/monitorDescarga.jpg" alt="">
-                </div>
 
-                <div id="selectorLicenscia" class="card-body pb-0">
-                    <div class="mb-2">
-                      <h5 class="card-title fs-4 mb-4">Selecciona una licencia para adquirir:</h5>
-                      <select class="form-select" id="tipoLicencia">
-                          <option value="ninguno">Selecciona una Opción</option>
-                        <option value="sencilla" id="opcionSencilla">Licencia Basic</option>
-                        <option value="premium" id="opcionPremium">Licencia Complete</option>
-                      </select>
-                      <p class="card-text mt-3">Descripción: <span id="descripcion">Debes seleccionar un tipo de licencia
-                          para obtener su descripcion y proseguir con la compra
-                      </span></p>
-                    </div>
-                  </div>
-                  <hr class="my-0" />
-                  <div class="card-body pb-0 mb-3">
-                    <div class="d-flex" style="align-items: center;">
-                      <p class="card-text">Subtotal: <span class="text-dark small text-muted" id="costo">$</span></p>
-                    </div>
-                  </div>
-                  <hr class="my-0" />
-                  <div class="card-body">
-                    <div class="d-flex justify-content-right align-items-center pb-2 mb-1" style="justify-content: right;">
-                      <button type="button" class="btn btn-primary mt-4" id="pasoFinal">Comprar ahora</button>
-                    </div>
-                  </div>
+            <p class="fs-5 text-center mt-3">la descarga empezara automaticamente al dar clic</p>
+            <button type="button" id="descargarBtn" class="btn btn-outline-warning btn-lg col-12" >Descargar</button>
         </div>        
     </div>
 
@@ -136,11 +101,13 @@
     
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
 
-    <script src="../js/DownloadStyle.js"></script>
+    <script src="../js/Download.js"></script>
     <script src="../js/imgs.js"></script>
 
     <script src="../js/CargarMenu.js"></script>
     <script src="../js/CargarFooter.js"></script>
+    <script src="../js/DarkMode.js"></script>
+
 
 </body>
 </html>

@@ -5,6 +5,16 @@
     justify-content: center;
     padding-top: 3%;
     padding-bottom: 3%;
+    background-color: var(--color-background);
+}
+
+h1{
+    color: var(--color-letra) !important;
+}
+
+.parrafo{
+
+    color: var(--color-letra) !important;
 }
 
 #imagen1 {
@@ -49,21 +59,21 @@
 #boxMV {
     display: flex;
     justify-content: space-around;
-    margin: 5% 0%;
+    background-color: var(--color-background);
 }
 
 #mision {
     width: 50%;
     text-align: justify;
     border-right: 1px solid #585858;
-    padding: 0 2.5%;
+    padding: 3% 2.5%;
 }
 
 #vision {
     width: 50%;
     text-align: justify;
     border-left: 1px solid #585858;
-    padding: 0 2.5%;
+    padding:3% 2.5%;
 }
 
 @media (max-width: 900px) {

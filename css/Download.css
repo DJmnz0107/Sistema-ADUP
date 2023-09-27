@@ -79,7 +79,7 @@ main {
     padding: 50px 0px;
 }
 
-#cont3 #cajaDesc {
+#cont3 div {
     background-color: #fff;
     border-radius: 35px;
     width: 50%;
@@ -87,19 +87,9 @@ main {
     box-shadow: 0px 0px 10px;
 }
 
-#imagenCompra {
-    margin: 5% 0%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-#cont3 #imagenCompra img {
-    width: 40%;
-}
-
-#selectorLicenscia {
-    width: 100%;
+#cont3 #parr1 {
+    margin-bottom: 3em;
 }
 
 @media (max-width: 660px) {
