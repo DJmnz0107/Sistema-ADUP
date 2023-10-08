@@ -3,7 +3,7 @@
 <head onload="load()">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="img/icon" href="../imgs/logoADUP_black.png">
+    <link rel="icon" type="img/icon" href="../imgs/icono-pag.ico">
     <title>Licencias del sistema</title>
     <link rel="stylesheet" href="../css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,75 +20,111 @@
     </div>
 
     <main>
-        <div id="cont2">
-            <div id="cont22">
+        <div id="cont2" >
+            <div id="cont22"  style="background-color: var(--color-background); color: var(--color-letra);">
               <div id="img2">
-                <img id="imagenAnmd1" src="../imgs/manual.jpg" alt="">
+                <img id="imagenAnmd1"src="../imgs/manual.png" alt="">
               </div>
               <div id="info2">
-                <h1 class="display-3">manual de uso</h1>
+                <h1 class="display-3">Manual de uso</h1>
 
-                <p class="fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem 
-                    sunt quidem perferendis, quas nihil quisquam saepe tenetur repellendus 
-                    dolor similique veritatis adipisci impedit, aliquid nulla praesentium 
-                    nemo consequuntur illo non!</p>
+                <p class="fs-4">Es importante que procures tener el manual de uso del sistema ADUP y leerlo detenidamente 
+                  para usar de manera correcta el sistema y evitar confusiones, para entender las diversas funciones con las que 
+                  cuenta.</p>
             
-                <p class="fs-4">descargar manual de uso aqui</p>
-                <button id="DescargarManual" type="button" class="btn btn-info btn-lg text-light">Descargar manual</button>
+                <p class="fs-4">Descargar el manual de uso aqui.</p>
+                <button id="DescargarManual" onclick="" type="button" class="btn btn-info btn-lg text-light"><a href="../Manual.pdf" download="" style="text-decoration: none; color: #fff;">Descargar manual</a> </button>
             </div>
           </div>
         </div>
 
-        <div id="cont1">
-            <h1 class="display-3">Que se necesita para descargar el sistema en tu ordenador</h1>
+        <div id="cont1" style="background-color: var(--color-background); color: var(--color-letra);">
+            <h1 class="display-3">¿Qué se necesita para descargar el programa en tu ordenador?</h1>
             <div class="accordion" id="accordionExample">
                 
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Requerimentos de hardware
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Requerimentos de software
-                    
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Requerimentos Mínimos
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Intel Core i3</li>
+                      <li>6Gb de RAM</li>
+                      <li>16Gb de almacenamiento</li>
+                      <li>Sistema operativo Windows 7</li>
+                      <li>Dispositivo gráfico Microsoft DirectX 9 con controlador WDDM.</li>
+                      <li>Pantalla de 1064 x 760 pixeles</li>
+                    </ul>
                   </div>
                 </div>
               </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Requerimentos recomendados
+                  
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Intel Core i5</li>
+                      <li>8Gb de RAM</li>
+                      <li>32Gb de almacenamiento interno</li>
+                      <li>Sistema operativo Windows 10</li>
+                      <li>Compatible con DirectX 12 o posterior con el controlador WDDM 2.0.</li>
+                      <li>Pantalla de 2024 x 1700 pixeles</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div id="img1">
-                <img src="../imgs/requerimentos (2).jpg">
+                <img src="../imgs/requerimentos (2).png" style="background-color: var(--color-background);">
             </div>
         </div>
 
     </main>
 
-    <div id="cont3" >
-        <div style="background-color: var(--color-background); color: var(--color-letra);">
-            <h1 class="display-3 text-center">descargar</h1>
+    <div id="cont3">
+        <div id="cajaDesc" style="background-color: var(--color-background); color: var(--color-letra);">
+          <h1 class="display-3 text-center">Descarga el Sistema ADUP</h1>
 
-            <p id="parr1" class="fs-4 text-justify">pasos para descargar - Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Consectetur laborum et consequatur beatae 
-                animi voluptate illo eos quae. Iure veniam quod earum consectetur 
-                quidem dicta sapiente, architecto culpa praesentium maxime?</p>
+          <p id="parr1" class="fs-4 text-justify">Para descargar el sistema el primer paso es rellenar el siguiente formulario corto y seleccionas que licencia deseas obtener, luego de esto, el programa empezará a instalarse en tu sistema operativo para que empieces a usarlo.</p>
 
+              <div id="imagenCompra">
+                  <img src="../imgs/monitorDescarga.jpg" alt="">
+              </div>
 
-            <p class="fs-5 text-center mt-3">la descarga empezara automaticamente al dar clic</p>
-            <button type="button" id="descargarBtn" class="btn btn-outline-warning btn-lg col-12" >Descargar</button>
-        </div>        
+              <div id="selectorLicenscia" class="card-body pb-0">
+                  <div class="mb-2">
+                    <h5 class="card-title fs-4 mb-4">Seleccione una licencia para adquirir:</h5>
+                    <select class="form-select" id="tipoLicencia">
+                        <option value="ninguno">Seleccione una Opción</option>
+                      <option value="sencilla" id="opcionSencilla">Licencia Basic</option>
+                      <option value="premium" id="opcionPremium">Licencia Complete</option>
+                    </select>
+                    <p class="card-text mt-3" style="color: var(--color-letra);">Descripción: <span id="descripcion" style="color: var(--color-letra);">Debe seleccionar un tipo de licencia
+                        para obtener su descripcion y proseguir con la compra
+                    </span></p>
+                  </div>
+                </div>
+                <hr class="my-0" />
+                <div class="card-body pb-0 mb-3">
+                  <div class="d-flex" style="align-items: center;">
+                    <p class="card-text" style="color: var(--color-letra);">Subtotal: <span id="costo" style="color: var(--color-letra);">$</span></p>
+                  </div>
+                </div>
+                <hr class="my-0" />
+                <div class="card-body">
+                  <div class="d-flex justify-content-right align-items-center pb-2 mb-1" style="justify-content: right;">
+                    <button type="button" class="btn btn-primary mt-4" id="pasoFinal">Comprar ahora</button>
+                  </div>
+                </div>
+      </div>        
     </div>
 
     <div id="ContenedorFooter">
